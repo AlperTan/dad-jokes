@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Dad Jokes</title>
+
+  </head>
+  
+  <body class="bg-slate-200">
+    <div class="h-screen flex flex-col items-center justify-center">
+    <div class="max-w-lg rounded overflow-hidden shadow-2xl">
+      <div class="px-6 py-4 grid-rows-1 bg-slate-100">
+      <div class="font-bold text-xl mb-2 text-center">"Funniest" Jokes Ever</div>
+        <p id="joke" class="text-gray-700 text-base">
+       </p>
+    </div>
+    <div class="px-6 pt-4 pb-2 flex justify-end bg-slate-100">
+      <button id="btn"
+          type="submit"
+          class="bg-white hover:bg-gray-300 text-gray-800 font-semibold py-2 px-4 mb-2 border border-gray-400 rounded shadow"
+        >
+          Another Joke
+        </button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
